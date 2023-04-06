@@ -1,4 +1,6 @@
-# Scraping and transforming the Roskilde Festival 2023 programme.
+# Optimize your '23 Roskilde Festival music experience  
+
+![screencast](google_sheet_demo.gif)
 
 ## Goals
 
@@ -15,4 +17,4 @@ Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S
 3. new data is manually copied into google sheets, and some vlookup and cmd+c cmd+v action makes things work well enough for the purpose
 4. enjoying and rating some exciting music! 
 
-![screencast](google_sheet_demo.gif)
+
