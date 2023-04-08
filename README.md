@@ -25,6 +25,7 @@ The festival apps and the website helps a bit, but I've been desiring the follow
 </details>
 
 ## Get started
+
 Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S_e2zR5O2cTbknIUh4bG1GymBtdwieFwZynTPRY/edit#gid=555358856), and clear values in column `E`, `F`, and `O`.
 
 <details>
@@ -40,4 +41,15 @@ Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S
 3. new data is manually copied into google sheets, and some vlookup and cmd+c cmd+v action makes things work well enough for the purpose
 4. enjoying and rating some exciting music! 
 
+### installation
+
+```shell
+git clone https://github.com/djmikeale/RF23.git
+cd RF23
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+source venv/bin/activate
+```
 </details>
