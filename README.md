@@ -1,21 +1,25 @@
 # Optimize your '23 Roskilde Festival music experience  
 
-![screencast](google_sheet_demo.gif)
+<center>
 
-## Goals
+Find new music to love, and plan your must-see concerts|
+:-:
+![screencast](img/google_sheet_demo.gif)
 
-- Easily find new music to love
-- Make sure you don't miss your most loved artists
-- Make sure you miss the music you don't like 💩
+Add fave concerts to your calendar|See relevant event details
+:-:|:-:
+![Alt text](img/cal_event_overview.png)|![Alt text](img/cal_event_details.png)
+
+</center>
 
 <details>
 <summary>
 
-## Isn't this overkill?
+## Isn't there like.. an app for this?
 
 </summary>
 
-The festival apps and the website helps a bit, but I've been desiring the following functionality: 
+Probably! Also, the website helps a bit, but I've been desiring the following functionality: 
 
 - Rather than just ❤️ the artists I like, I want it more granular, and be able to add comments on *why* I (dis)liked an artist
 - I'm going together with my GF and we'd like to easily see what's important for each other
@@ -26,7 +30,10 @@ The festival apps and the website helps a bit, but I've been desiring the follow
 
 ## Get started
 
-Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S_e2zR5O2cTbknIUh4bG1GymBtdwieFwZynTPRY/edit#gid=555358856), and clear values in column `E`, `F`, and `O`.
+1. Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S_e2zR5O2cTbknIUh4bG1GymBtdwieFwZynTPRY/edit#gid=555358856), and clear values in column `E`, `F`, and `O`.
+2. Listen to all the amazing (and not-so-amazing 💩) music.
+3. Edit the `SHEET_ID` parameter in `transform.ipynb` to source your spreadsheet, and run the code.
+4. Load the calendar-file into your prefered calendar.
 
 <details>
 <summary>
@@ -38,8 +45,7 @@ Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S
 
 1. `roskilde.ipynb` scrapes selected programme information from the roskilde website
 2. scraped data is written to `output.csv`
-3. new data is manually copied into google sheets, and some vlookup and cmd+c cmd+v action makes things work well enough for the purpose
-4. enjoying and rating some exciting music! 
+3. `is_everything_synced.ipynb` compares roskilde-website, `output.csv`, and the google sheet, and makes it easy to add new artists to the google sheet with some crazy cmd+c cmd+v action
 
 ### installation
 
