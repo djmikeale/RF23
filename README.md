@@ -24,16 +24,17 @@ Probably! Also, the website helps a bit, but I've been desiring the following fu
 - Rather than just ❤️ the artists I like, I want it more granular, and be able to add comments on *why* I (dis)liked an artist
 - I'm going together with my GF and we'd like to easily see what's important for each other
 - Find artists' mustic on Spotify without too many clicks
-- See the relevant information at the right time (TODO feature to create .ical of most important events + notification of when favorite artists are going to play?)
+- See the relevant information at the right time in a familiar app
 
 </details>
 
 ## Get started
 
-1. Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S_e2zR5O2cTbknIUh4bG1GymBtdwieFwZynTPRY/edit#gid=555358856), and clear values in column `E`, `F`, and `O`.
-2. Listen to all the amazing (and not-so-amazing 💩) music.
-3. Edit the `SHEET_ID` parameter in `transform.ipynb` to source your spreadsheet, and run the code.
-4. Load the calendar-file into your prefered calendar.
+1. Make a copy of [this google sheet](https://docs.google.com/spreadsheets/d/1uu3_S_e2zR5O2cTbknIUh4bG1GymBtdwieFwZynTPRY/edit#gid=555358856), and clear values in column `H`, `I`, and `M`
+2. Listen to all the amazing (and not-so-amazing 💩) music
+3. Edit the `SHEET_ID` parameter in `transform.ipynb` to source your spreadsheet, and run the code
+    - If u changed column names in step 1, remember to update the code accordingly 
+4. Load the calendar-file into your prefered calendar
 
 <details>
 <summary>
@@ -43,9 +44,10 @@ Probably! Also, the website helps a bit, but I've been desiring the following fu
 </summary>
 
 
-1. `roskilde.ipynb` scrapes selected programme information from the roskilde website
-2. scraped data is written to `output.csv`
-3. `is_everything_synced.ipynb` compares roskilde-website, `output.csv`, and the google sheet, and makes it easy to add new artists to the google sheet with some crazy cmd+c cmd+v action
+1. `is_everything_synced.ipynb` compares roskilde-website, `output.csv`, and the google sheet containing your own ratings, and makes it easy to add new artists to the google sheet with some crazy cmd+c cmd+v action
+2. `roskilde.ipynb` scrapes selected programme information from the roskilde website
+3. scraped data is written to `output.csv`
+4. `transform.ipynb` outputs ratings + fave artists to an .ics calendar file
 
 ### installation
 
