@@ -1,17 +1,15 @@
 # Optimize your '23 Roskilde Festival music experience  
 
-<center>
+### Find new music to love, and plan your must-see concerts
+![screencast](img/google_sheet_demo.gif) 
 
-Find new music to love, and plan your must-see concerts|
-:-:
-![screencast](img/google_sheet_demo.gif)
+### Add fave concerts to your calendar
+![Alt text](img/cal_event_overview.png)
 
-Add fave concerts to your calendar|See relevant event details
-:-:|:-:
-![Alt text](img/cal_event_overview.png)|![Alt text](img/cal_event_details.png)
-...note that Roskilde hasn't published the timetable yet, so calendar functionality isn't very usable.. yet!
+### See relevant event details in events
+![Alt text](img/cal_event_details.png)
 
-</center>
+NB: Roskilde hasn't published the timetable yet, so calendar functionality isn't very usable.. yet!
 
 <details>
 <summary>
