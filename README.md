@@ -9,22 +9,23 @@ Find new music to love, and plan your must-see concerts|
 Add fave concerts to your calendar|See relevant event details
 :-:|:-:
 ![Alt text](img/cal_event_overview.png)|![Alt text](img/cal_event_details.png)
+...note that Roskilde hasn't published the timetable yet, so calendar functionality isn't very usable.. yet!
 
 </center>
 
 <details>
 <summary>
 
-## Isn't there like.. an app for this?
+## Isn't there like.. already an app for this?
 
 </summary>
 
-Probably! Also, the website helps a bit, but I've been desiring the following functionality: 
+Probably! Also, the Roskilde Festival website helps a bit, but I've been desiring the following functionality: 
 
 - Rather than just ❤️ the artists I like, I want it more granular, and be able to add comments on *why* I (dis)liked an artist
-- I'm going together with my GF and we'd like to easily see what's important for each other
-- Find artists' mustic on Spotify without too many clicks
-- See the relevant information at the right time in a familiar app
+- My GF and I would like to easily see what concerts we want to see together
+- Being able to listen to artists' mustic on Spotify without too many clicks
+- See the relevant information at the right time in a familiar interface
 
 </details>
 
@@ -60,4 +61,7 @@ python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 source venv/bin/activate
 ```
+
+- for scraping, ensure you have set up a [selenium webdriver](https://www.selenium.dev/documentation/webdriver/getting_started/)
+
 </details>
