@@ -4,12 +4,10 @@
 ![screencast](img/google_sheet_demo.gif) 
 
 ### Add fave concerts to your calendar
-![Alt text](img/cal_event_overview.png)
+![Alt text](img/cal_event_overview.jpeg)
 
-### See relevant event details in events
-![Alt text](img/cal_event_details.png)
-
-NB: Roskilde hasn't published the timetable yet, so calendar functionality isn't very usable.. yet!
+### See relevant event details
+![Alt text](img/cal_event_details.jpeg)
 
 <details>
 <summary>
@@ -20,10 +18,14 @@ NB: Roskilde hasn't published the timetable yet, so calendar functionality isn't
 
 Probably! Also, the Roskilde Festival website helps a bit, but I've been desiring the following functionality: 
 
-- Rather than just ❤️ the artists I like, I want it more granular, and be able to add comments on *why* I (dis)liked an artist
-- My GF and I would like to easily see what concerts we want to see together
-- Being able to listen to artists' mustic on Spotify without too many clicks
-- See the relevant information at the right time in a familiar interface
+- before the festival:
+    - Discover new music to look forward to at the festival
+    - Be able to listen to artists' music without too many clicks
+    - Define *how much* I'd like to see an act, rather than just giving the artist a ❤️
+- at the festival:
+    - I don't want to get distracted by the artists that don't appeal to me
+    - My GF and I would like to easily see what concerts we want to see together
+    - being able to send a screenshot of my calendar so my friends know what I'm up to
 
 </details>
 
@@ -60,6 +62,6 @@ python3 -m pip install -r requirements.txt
 source venv/bin/activate
 ```
 
-- for scraping, ensure you have set up a [selenium webdriver](https://www.selenium.dev/documentation/webdriver/getting_started/)
+❕ for scraping, ensure you have set up a [selenium webdriver](https://www.selenium.dev/documentation/webdriver/getting_started/)
 
 </details>
